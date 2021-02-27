@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header .header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 30px 200px 0 200px;
+}
+
+header .header nav .logo {
+  width: 145px;
+  height: 65px;
+}
+
+header .header nav .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header .header nav .orange_icon1 {
+  width: 15px;
+  height: 15px;
+  margin-right: 100px;
+}
+
+header .header nav .orange_icon1 img {
+  width: 100%;
+  height: 100%;
+}
+
+header .header nav #menu ul {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header nav #menu ul li {
+  list-style-type: none;
+}
+
+header .header nav #menu ul li a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: #616161;
+}
+
+header .header nav #menu ul li a:hover {
+  color: #FB973B;
+}
+
+header .header .orange_icon2 {
+  margin-left: 1074px;
+  width: 15px;
+  height: 15px;
+  margin-top: 40px;
+}
+
+header .header .orange_icon2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contant .orange_icon3 {
+  margin-left: 130px;
+  margin-top: 350px;
+  margin-right: 190px;
+  width: 15px;
+  height: 15px;
+}
+
+.contant .orange_icon3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.contant .contant_text {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  margin-top: 70px;
+}
+
+.contant .contant_text h2 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contant .contant_text p {
+  font-size: 24px;
+  color: #616161;
+  margin-bottom: 45px;
+  margin-right: 240px;
+  word-spacing: 8px;
+}
+
+.contant .contant_text p span {
+  color: #FB973B;
+}
+
+.contant .contant_text input {
+  width: 195px;
+  height: 55px;
+  background-color: #F8F8F8;
+  border: 1px solid #E1E1E1;
+}
+
+.contant .contant_text button {
+  width: 195px;
+  height: 55px;
+  background-color: #FB973B;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #E1E1E1;
+  margin-right: -5px;
+  margin-bottom: 80px;
+}
+
+.contant .contant_text .orange_icon4 {
+  width: 15px;
+  height: 15px;
+}
+
+.contant .contant_text .orange_icon4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.contant .orange_icon5 {
+  margin-top: 410px;
+  margin-left: -225px;
+}
+
+.contant .contant_img {
+  position: relative;
+}
+
+.contant .contant_img .lampochki {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-right: 100px;
+  width: 925px;
+  height: 570px;
+  z-index: 0;
+}
+
+.contant .contant_img .lampochki img {
+  width: 100%;
+  height: 100%;
+}
+
+.contant .contant_img .png15 {
+  width: 15px;
+  height: 15px;
+  margin-left: 700px;
+  margin-top: -450px;
+}
+
+.contant .contant_img .png15 img {
+  width: 100%;
+  height: 100%;
+}
+
+.contant .contant_img .png112 {
+  width: 15px;
+  height: 15px;
+  margin-left: 600px;
+  margin-top: 330px;
+}
+
+.contant .contant_img .png112 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .orange_icon6 {
+  margin-left: 930px;
+  margin-top: 100px;
+  width: 15px;
+  height: 15px;
+}
+
+.about_us .orange_icon6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .about_us_header {
+  text-align: center;
+}
+
+.about_us .about_us_header h3 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-right: 560px;
+  margin-left: 560px;
+  margin-bottom: 35px;
+  -webkit-text-decoration: underline 10px #FB973B;
+          text-decoration: underline 10px #FB973B;
+}
+
+.about_us .about_us_header p {
+  font-size: 24px;
+  color: #616161;
+  margin-left: 710px;
+  margin-right: 710px;
+}
+
+.about_us .about_us_header p span {
+  color: #FB973B;
+}
+
+.about_us .orange_icons {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about_us .orange_icons .png33 {
+  margin-left: 85px;
+  margin-top: 105px;
+  width: 15px;
+  height: 15px;
+}
+
+.about_us .orange_icons .png33 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .orange_icons .png22 {
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 15px;
+  height: 15px;
+}
+
+.about_us .orange_icons .png22 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .orange_icons .png44 {
+  margin-left: 860px;
+  margin-top: 45px;
+  width: 15px;
+  height: 15px;
+}
+
+.about_us .orange_icons .png44 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .orange_icons .png15 {
+  margin-left: 460px;
+  width: 15px;
+  height: 15px;
+}
+
+.about_us .orange_icons .png15 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .about_us_contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about_us .about_us_contant .orange_icon9 {
+  width: 15px;
+  height: 15px;
+  margin-top: 350px;
+  margin-left: 460px;
+}
+
+.about_us .about_us_contant .orange_icon9 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .about_us_contant .lamp_img {
+  width: 440px;
+  height: 380px;
+}
+
+.about_us .about_us_contant .lamp_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_us .about_us_contant .about_us_text {
+  margin-left: 50px;
+  margin-right: 520px;
+  font-size: 18px;
+  color: #616161;
+}
+
+.about_us .about_us_contant .about_us_text .orange_icon7 {
+  text-align: center;
+}
+
+.about_us .about_us_contant .about_us_text .orange_icon7 .orange_icon8 {
+  width: 15px;
+  height: 15px;
+  margin-left: 300px;
+}
+
+.about_us .about_us_contant .about_us_text .orange_icon7 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer_orange {
+  width: 15px;
+  height: 15px;
+  margin-left: 890px;
+  margin-top: 80px;
+}
+
+.footer_orange img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .orange_icon10 {
+  width: 15px;
+  height: 15px;
+  margin-left: 140px;
+  margin-top: 200px;
+}
+
+footer .orange_icon10 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .footer_text {
+  margin-left: 175px;
+  margin-right: 145px;
+}
+
+footer .footer_text h5 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+footer .footer_text p {
+  font-size: 24px;
+  color: #616161;
+  margin-top: 50px;
+}
+
+footer .footer_text p span {
+  color: #FB973B;
+}
+
+footer .footer_text .orange_icon11 {
+  margin-top: 75px;
+  margin-left: 205px;
+  width: 15px;
+  height: 15px;
+}
+
+footer .footer_text .orange_icon11 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .our_partners {
+  margin-right: 350px;
+  margin-bottom: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .our_partners .partners1 {
+  margin-right: 185px;
+}
+
+footer .our_partners .partners1 .img1 {
+  width: 250px;
+  height: 55px;
+  margin-bottom: 70px;
+}
+
+footer .our_partners .partners1 .img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .our_partners .partners1 .img2 {
+  width: 250px;
+  height: 55px;
+  margin-bottom: 35px;
+}
+
+footer .our_partners .partners1 .img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .our_partners .partners1 .img3 {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 35px;
+  margin-left: 125px;
+}
+
+footer .our_partners .partners1 .img3 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .our_partners .partners2 .img5 {
+  width: 250px;
+  height: 55px;
+  margin-bottom: 30px;
+}
+
+footer .our_partners .partners2 .img5 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .our_partners .partners2 .img6 {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+footer .our_partners .partners2 .img6 img {
+  width: 100%;
+  height: 100%;
+  margin-left: 175px;
+}
+
+footer .our_partners .partners2 .img7 {
+  width: 250px;
+  height: 55px;
+  margin-bottom: 70px;
+}
+
+footer .our_partners .partners2 .img7 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .orange_icon13 {
+  width: 15px;
+  height: 15px;
+  margin-right: 120px;
+  margin-top: 450px;
+}
+
+footer .orange_icon13 img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
